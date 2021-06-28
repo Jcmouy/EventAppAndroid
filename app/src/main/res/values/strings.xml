@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">EventappB</string>
+    <string name="google_maps_key">AIzaSyDIo30k9qyZ41HVoZbJ2foPg8tCJJ9VWvc</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="create_event">New Event</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+
+    <string name="event_name">Event Name</string>
+    <string name="contacts">Contacts</string>
+    <string name="event_description">Description</string>
+    <string name="type_event">Type of Event:</string>
+    <string name="icon_selection">Select your desired EventIcon:</string>
+    <string name="subtype_event">Subtype of Event:</string>
+    <string name="visibility">Visibility:</string>
+    <string name="visibility_public">Public</string>
+    <string name="visibility_private">Private</string>
+    <string name="event_icon">EventIcon</string>
+    <string name="selected">Selected:</string>
+
+    <!-- Type of events -->
+    <string name="type_event_1">Shopping</string>
+    <string name="type_event_2">Night Life</string>
+    <string name="type_event_3">Fun and games </string>
+    <string name="type_event_4">Classes and workshops</string>
+    <string name="type_event_5">Food and beverage</string>
+    <string name="type_event_6">Concert and show</string>
+    <string name="type_event_7">Outdoor activity</string>
+    <string name="type_event_8">Wellness centres</string>
+
+    <!-- SMS message -->
+    <string name="sms_standard_message">You have recived an invitation to an event by EVENTAPP!</string>
+
+    <!-- Buttons -->
+    <string name="button_accept_event">Create</string>
+    <string name="button_cancel_event">Cancel</string>
+    <string name="button_accept_contact">OK</string>
+
+    <!-- Id -->
+
+    <item name="visible" type="id"/>
+    <item name="masked" type="id"/>
+
+    <!-- AndroidHive -->
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_sms">SmsActivity</string>
+    <string name="action_logout">Logout</string>
+    <string name="msg_enter_mobile">Enter your mobile number to get started!</string>
+    <string name="lbl_name">Username</string>
+    <string name="lbl_email">Email</string>
+    <string name="lbl_mobile">Mobile</string>
+    <string name="lbl_next">NEXT</string>
+    <string name="msg_sit_back">Sit back &amp; Relax! while we verify your mobile number</string>
+    <string name="msg_manual_otp">(Enter the OTP below in case if we fail to detect the SMS automatically)</string>
+    <string name="lbl_enter_otp">Enter OTP</string>
+    <string name="lbl_submit">SUBMIT</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="select_contact">Select contacts to send event:</string>
+    <string name="button_select_contacts">Select Contacts</string>
+    <string name="contact_selected">Invited Contacts:</string>
+    <string name="details_contact_response">Wating response</string>
+    <string name="confirmation_yes">Accepted Invitation</string>
+    <string name="confirmation_no">Rejected Invitation</string>
+    <string name="confirmation_wait">Waiting for response</string>
+    <string name="activity_unknown">Unknown</string>
+    <string name="button_modify_event">Modify</string>
+    <string name="button_delete_event">Delete</string>
+
+</resources>

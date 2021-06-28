@@ -1,0 +1,60 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '27.0.3'
+    defaultConfig {
+        applicationId "com.example.admin.eventappb"
+        minSdkVersion 15
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    implementation 'com.hbb20:ccp:2.1.9'
+    implementation 'com.android.support:appcompat-v7:26.+'
+    implementation 'com.android.support:design:26.+'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.google.android.gms:play-services-maps:11.8.0'
+    implementation 'com.google.android.gms:play-services-location:11.8.0'
+    implementation 'com.google.android.gms:play-services-places:11.8.0'
+    implementation 'com.android.support:support-v4:26.+'
+    implementation 'com.android.support:exifinterface:25.1.0'
+
+    //Volley library
+    implementation 'com.mcxiaoke.volley:library-aar:1.0.0'
+
+    //Libphonenumber
+    implementation 'io.michaelrocks:libphonenumber-android:8.8.5'
+
+    //CircleImageView
+    implementation 'de.hdodenhof:circleimageview:2.1.0'
+
+    //RetroFit
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+
+    //Sliding up panel
+    implementation 'com.sothree.slidinguppanel:library:3.4.0'
+
+    //HTTPLOGGING
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.9.0'
+
+    // JSON Parsing
+    implementation 'com.google.code.gson:gson:2.6.1'
+    implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
+
+    testImplementation 'junit:junit:4.12'
+}
